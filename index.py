@@ -71,7 +71,7 @@ index_layout = html.Div(
 
 
 # CREATE LISTS
-american = ['Farm Bar', 'SALT burger', 'Park and Field', 'Au Cheval', 'Small Cheval','Lakefront Restaurant Theatre',
+american = ['Farm Bar', 'SALT Burger', 'Park and Field', 'Au Cheval', 'Small Cheval','Lakefront Restaurant Theatre',
             'Gemini', 'Hutch', 'LuxBar', 'Gilt Bar', 'Rocks', 'The Whale', "Twin Anchor's", 'Kirkwood']
 asian = ['Sushi san', 'Jinsei Motto', 'Cho Sun Ok', "Penny's", "Andy's Thai", 'Silver Spoon Thai', 'Gorilla Sushi',
          'Tac Quick', 'Happy Lamb Hot Pot']
