@@ -37,8 +37,9 @@ index_layout = html.Div(
                 children=[
                     html.Br(),
                     html.Div(children="🤤", style={"fontSize": "85px"}),
-                    html.Div(children="the hangry app", style={"fontSize": "75px"}),
-                    html.Div(children="powered by JI (Joe's Intelligence)", style={"fontSize": "30px"}),
+                    html.Div(children="the hangry app", style={"fontSize": "45px"}),
+                    html.Div(children="powered by JI", style={"fontSize": "30px"}),
+                    html.Div(children="(Joe's Intelligence)", style={"fontSize": "30px"}),
                     html.Br(),
                 ],
                 style={
@@ -52,7 +53,7 @@ index_layout = html.Div(
             html.Div([
                     "First question: how hangry are you at the moment?",
                     dcc.Dropdown(['A little bit', 'Very', "I might rip someone's head off"],
-                    id='dropdown')]),
+                    searchable=False, id='dropdown')]),
             html.Br(),
             html.Div(id='question-response'),
             html.Br(),
@@ -118,11 +119,11 @@ def render_page_content(pathname):
 )
 def update_output(value):
     if value == 'A little bit':
-        return 'Bueno! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
+        return 'Bueno! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], searchable=False, id='dropdown2')
     if value == 'Very':
-        return 'Ok! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
+        return 'Ok! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], searchable=False, id='dropdown2')
     if value == "I might rip someone's head off":
-        return 'Scheiße! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
+        return 'Scheiße! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], searchable=False, id='dropdown2')
 
 # # dropdown2 callback
 # @app.callback(
