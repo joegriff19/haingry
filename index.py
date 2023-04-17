@@ -121,7 +121,7 @@ def update_output(value):
         return 'Bueno! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
     if value == 'Very':
         return 'Ok! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
-    if value == 'I might rip someones head off':
+    if value == "I might rip someone's head off":
         return 'Scheiße! ', 'What kind of food do you want?', dcc.Dropdown(['American', 'Asian', 'Bagel', 'Chicken', 'Italian', 'Mexican / Spanish / Latino', 'Pizza', 'Salad', 'Sandwich', 'Something Fun and Different', 'I dont know'], id='dropdown2')
 
 # # dropdown2 callback
