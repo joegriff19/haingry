@@ -72,9 +72,9 @@ index_layout = html.Div(
 
 # CREATE LISTS
 american = ['Farm Bar', 'SALT Burger', 'Park and Field', 'Au Cheval', 'Small Cheval','Lakefront Restaurant Theatre',
-            'Gemini', 'Hutch', 'LuxBar', 'Gilt Bar', 'Rocks', 'The Whale', "Twin Anchor's", 'Kirkwood']
+            'Gemini', 'Hutch', 'LuxBar', 'Gilt Bar', 'Rocks', 'The Whale', "Twin Anchor's", 'Kirkwood', 'Summerhouse Santa Monica']
 asian = ['Sushi san', 'Jinsei Motto', 'Cho Sun Ok', "Penny's", "Andy's Thai", 'Silver Spoon Thai', 'Gorilla Sushi',
-         'Tac Quick', 'Happy Lamb Hot Pot']
+         'Tac Quick', 'Happy Lamb Hot Pot', 'Ramen San']
 bagel = ['Taste of New York', 'Gotham', 'Chicago Bagel Authority', 'The Bagelers']
 chicken = ["GG's", "Parson's", "Cane's", "Harold's", 'Honey Butter Fried Chicken']
 italian = ['Topo Gigio', 'Gioia Ristorante', 'Alla Vita', 'Lardon', 'Mia Francesca', 'Forno Rosso', 'Little Italy',
@@ -86,11 +86,11 @@ latino = ['Los 3 Panchos', 'Broken English', 'La Bendición Tamales', 'Bocadillo
           'Las Tablas', '90 Miles Cuban', 'S & T Steak & Tostada']
 pizza = ['Art of Pizza', 'Dry Hop', "Robert's Pizza", 'Piccolo Sogno', 'Homeslice', "Ranalli's", 'Bonci',
          "Lou Malnati's", "Vito & Nick's", "Giordano's"]
-salad = ['Sweetgreen', 'Doms']
+salad = ['Sweetgreen', "Dom's", 'Left Coast', 'Just Salad', 'Freshii']
 sandwich = ['BARI', "D'amato's", 'Alpine', "Johnnie's", 'Potbelly', "JJ's"]
 something = ['Avli', 'Athenian Room', "Andro's Taverna", 'Smoke Daddy', 'District Brew Yards', "AJ's", 'Poke Poke',
              'Pleasant House Pub', "Cleo's", 'Prost', 'The Globe', 'Four Moon Tavern', 'Sheffield', 'Galway Arms',
-             'Demera', 'Tesfa', "Dom's", 'Bodega Sur', 'Tango Sur', 'Aba']
+             'Demera', 'Tesfa', "Dom's", 'Bodega Sur', 'Tango Sur', 'Aba', 'Time Out Market']
 idk = american + asian + bagel + chicken + italian + latino + pizza + salad + sandwich + something
 
 
