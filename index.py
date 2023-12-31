@@ -38,8 +38,8 @@ index_layout = html.Div(
                     html.Br(),
                     html.Div(children="🤤", style={"fontSize": "85px"}),
                     html.Div(children="the hangry app", style={"fontSize": "45px"}),
-                    html.Div(children="powered by JI", style={"fontSize": "30px"}),
-                    html.Div(children="(Joe's Intelligence)", style={"fontSize": "30px"}),
+                    html.Div(children="powered by JI", style={"fontSize": "20px"}),
+                    html.Div(children="(Joe's Intelligence)", style={"fontSize": "20px"}),
                     html.Br(),
                 ],
                 style={
